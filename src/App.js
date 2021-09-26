@@ -23,14 +23,14 @@ const sections = [
 
 const App = () => {
 
-  const [background, setBackground] = useState('#1C6915 ');
+  const [background, setBackground] = useState('#2ca4cc');
   const headerRef = useRef(null);
 
   const revealRefs = useRef([]);
   revealRefs.current = [];
 
   const toggleBackground = () => {
-    const color = background !== '#262626' ? '#262626' : '#790D21 ';
+    const color = background !== '#262626' ? '#262626' : '#478a52 ';
     setBackground(color);
   }
 

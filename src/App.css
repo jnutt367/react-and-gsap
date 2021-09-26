@@ -26,12 +26,16 @@
     color: #61dafb;
 }
 
+h1 {
+    padding: 20px;
+}
+
 p {
-    padding: 50px;
+    padding: 20px;
 }
 
 .author {
-    padding-right: 200px;
+    padding-right: 20px;
 }
 
 .App-main {
@@ -39,9 +43,9 @@ p {
     margin: 0 auto;
     background: #574548;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, black, #1C6915);
+    background: -webkit-linear-gradient(to top, black, #5d5e5d);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, black, #1C6915);
+    background: linear-gradient(to top, black, #a9b4a7);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

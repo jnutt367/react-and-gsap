@@ -79,12 +79,13 @@ const App = () => {
       <header ref={headerRef} className="App-header">
       
       <h1>A Beginner's guide to using GSAP in a React application</h1>
+      <img src={logo} className="App-logo" alt="logo" />
       <h4>A straight forward documented walkthrough</h4>
       <h2 className="author">Written By: Jason Nutt</h2>
       <p>
          ScrollTrigger allows us to reveal Content as we scroll
         </p>
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <button onClick={() => toggleBackground()}>Change background</button>
         
         <p>

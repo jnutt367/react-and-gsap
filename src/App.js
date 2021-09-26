@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { gsap } from "gsap";
-import logo from '../src/images/img_react-gsap.png';
+import logo from '../src/images/spaceArmor.svg';
 import './App.css';
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -23,7 +23,7 @@ const sections = [
 
 const App = () => {
 
-  const [background, setBackground] = useState('#2ca4cc');
+  const [background, setBackground] = useState('black');
   const headerRef = useRef(null);
 
   const revealRefs = useRef([]);
@@ -44,7 +44,8 @@ const App = () => {
     
     gsap.from(headerRef.current, {
       autoAlpha: 0, 
-      ease: 'none',
+      ease: 'back',
+      duration: 4,
       delay: 1
     });
 

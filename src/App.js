@@ -30,7 +30,7 @@ const App = () => {
   revealRefs.current = [];
 
   const toggleBackground = () => {
-    const color = background !== '#262626' ? '#262626' : '#478a52 ';
+    const color = background !== '#262626' ? '#262626' : '#478a52';
     setBackground(color);
   }
 
